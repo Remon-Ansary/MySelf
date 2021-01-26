@@ -58,11 +58,12 @@ body {
 }
 
 .icon-area{
-width:25%;
-text-align:center;
-margin-left: 400px;
-height: 30px;
+width:80%;
+height: 100px;
 align-items: center;
+}
+.icon-area img:hover{
+  background-color:rgb(235, 217, 219);
 }
 
 .icon-area img{
