@@ -1,78 +1,71 @@
 body {
-    padding: 20px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .dark-mode {
-    background-color: rgb(14, 17, 41);
-    color: white;
-  }
-  .btn.btn-dark{
-     float: right;
-  }
-  .containerMain{
-     
-      padding: 200px;
-  }
-  
-  .mail:hover{
-    background-color: yellow;
-  }
-  .column {
-    float: left;
-    width: 40%;
-    padding: 10px;
-    height: 300px;
-  }
-  
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  h5{
-    color: blue;
-  }
-  .row {
-    display: flex;
-  }
-  ::selection {
-    color: black;
-    background: yellow;
-  }
-  
-
-  .box {
-    display: inline-block;
-    margin: 3px 3px 3px 0;
-    font-size: .70rem;
-    padding: 3px 6px;
-    border-radius: 4px;
-    
-    border: 1px solid #096ae9;
-    background: 0 0;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.icon-area{
-width:80%;
-height: 100px;
-align-items: center;
+.dark-mode {
+  background-color: rgb(14, 17, 41);
+  color: white;
 }
-.icon-area img:hover{
-  background-color:rgb(235, 217, 219);
+.btn.btn-dark {
+  float: right;
 }
-
-.icon-area img{
-width: 10%;
-
+.containerMain {
+  padding: 200px;
 }
 
+.mail:hover {
+  background-color: yellow;
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px;
+}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h5 {
+  color: blue;
+}
+.row {
+  display: flex;
+}
+::selection {
+  color: black;
+  background: yellow;
+}
 
+.box {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  border-radius: 4px;
+
+  border: 1px solid #096ae9;
+  background: 0 0;
+}
+
+.icon-area {
+  width: 80%;
+  height: 100px;
+  align-items: center;
+}
+.icon-area img:hover {
+  background-color: rgb(235, 217, 219);
+}
+
+.icon-area img {
+  width: 10%;
+}
 
 #myBtn {
   display: none;
@@ -88,4 +81,3 @@ width: 10%;
   padding: 15px;
   border-radius: 4px;
 }
-
