@@ -78,9 +78,10 @@ h5 {
   outline: none;
   color: white;
   cursor: pointer;
+  background-color: white;
   padding: 15px;
   border-radius: 4px;
-  background-color: white;
+  
 }
 
 
@@ -91,7 +92,7 @@ h5 {
   display: inline-block;
   width: 50px;
   height: 25px;
-  float: right;
+  float:right;
 }
 
 /* Hide default HTML checkbox */
@@ -147,6 +148,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+  
 }
 .mode{
   height: 40px;
@@ -157,3 +159,19 @@ input:checked + .slider:before {
 }
 
 
+#arrow {
+  position: relative;
+  right: 0;
+  transition: right ease 0.5s;
+}
+#arrow:hover {
+  right: -10px;
+}
+#arrow1 {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#arrow1:hover {
+  top: -20px;
+}
