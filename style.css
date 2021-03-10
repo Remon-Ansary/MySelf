@@ -18,7 +18,10 @@ body {
 }
 
 .mail:hover {
-  background-color: yellow;
+  background-color:yellow;
+}
+.name{
+  color: rgb(231, 95, 41);
 }
 .column {
   float: left;
